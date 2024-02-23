@@ -69,6 +69,7 @@ namespace Backend.Models1
             modelBuilder.Entity<walk_in_drives_has_job_roles>().HasKey(m => new { m.Drive_id, m.Role_id });
             modelBuilder.Entity<professional_qualification_info_has_technology_familier_table>().HasKey(m => new { m.Id, m.Tech_id });
             modelBuilder.Entity<professional_qualification_info_has_technology_expert_table>().HasKey(m => new { m.Id, m.Tech_id });
+            modelBuilder.Entity<drive_applied_has_job_roles>().HasKey(m => new {m.Role_id, m.Id, m.Slots_id, m.Drive_id});
 
             modelBuilder
                 .UseCollation("utf8mb4_0900_ai_ci")

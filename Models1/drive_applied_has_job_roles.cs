@@ -4,7 +4,6 @@ namespace Backend.Models1
 {
     public class drive_applied_has_job_roles
     {
-        [Key]
         public int Id { get; set; }
 
         public int Drive_id { get; set; }

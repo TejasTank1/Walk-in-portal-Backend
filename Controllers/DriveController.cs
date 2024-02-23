@@ -199,7 +199,21 @@ namespace Backend.Controllers
             }
             return Ok(drivesavailabletimes);
         }
-         
+
+        [HttpGet("gettimeslotbyid/{id}", Name = "Gettimeslotnamebyid")]
+        public async Task<ActionResult> Gettimeslotnamebyid([FromRoute] int id)
+        {
+            var name = appdbcont.Slots.Where(n => n.Id == id).FirstOrDefault();
+            if (name == null)
+            {
+                return NotFound("slot not found.");
+            }
+            else
+            {
+                return Ok(name);
+            }
+        }
+
         //
         //
         //
