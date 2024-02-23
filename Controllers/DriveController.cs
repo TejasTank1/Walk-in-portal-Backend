@@ -14,8 +14,10 @@ using System.Text;
 
 namespace Backend.Controllers
 {
+    [Authorize]
     [Route("")]
     [ApiController]
+
     public class DriveController : ControllerBase
     {
 

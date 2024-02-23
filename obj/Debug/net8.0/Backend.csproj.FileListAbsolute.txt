@@ -89,14 +89,6 @@ D:\zeus\Walk-in-portal\Backend\Backend\obj\Debug\net8.0\Backend.csproj.CoreCompi
 D:\zeus\Walk-in-portal\Backend\Backend\obj\Debug\net8.0\Backend.MvcApplicationPartsAssemblyInfo.cs
 D:\zeus\Walk-in-portal\Backend\Backend\obj\Debug\net8.0\Backend.MvcApplicationPartsAssemblyInfo.cache
 D:\zeus\Walk-in-portal\Backend\Backend\obj\Debug\net8.0\Backend.sourcelink.json
-D:\zeus\Walk-in-portal\Backend\Backend\obj\Debug\net8.0\staticwebassets.build.json
-D:\zeus\Walk-in-portal\Backend\Backend\obj\Debug\net8.0\staticwebassets.development.json
-D:\zeus\Walk-in-portal\Backend\Backend\obj\Debug\net8.0\staticwebassets\msbuild.Backend.Microsoft.AspNetCore.StaticWebAssets.props
-D:\zeus\Walk-in-portal\Backend\Backend\obj\Debug\net8.0\staticwebassets\msbuild.build.Backend.props
-D:\zeus\Walk-in-portal\Backend\Backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Backend.props
-D:\zeus\Walk-in-portal\Backend\Backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Backend.props
-D:\zeus\Walk-in-portal\Backend\Backend\obj\Debug\net8.0\staticwebassets.pack.json
-D:\zeus\Walk-in-portal\Backend\Backend\obj\Debug\net8.0\scopedcss\bundle\Backend.styles.css
 D:\zeus\Walk-in-portal\Backend\Backend\obj\Debug\net8.0\Backend.csproj.CopyComplete
 D:\zeus\Walk-in-portal\Backend\Backend\obj\Debug\net8.0\Backend.dll
 D:\zeus\Walk-in-portal\Backend\Backend\obj\Debug\net8.0\refint\Backend.dll
@@ -127,7 +119,6 @@ D:\zeus\Walk-in-portal\Backend\Backend\bin\Debug\net8.0\runtimes\win\lib\netcore
 D:\zeus\Walk-in-portal\Backend\Backend\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\zeus\Walk-in-portal\Backend\Backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\zeus\Walk-in-portal\Backend\Backend\bin\Debug\net8.0\libman.json
-D:\zeus\Walk-in-portal\Backend\Backend\bin\Debug\net8.0\Backend.staticwebassets.runtime.json
 D:\zeus\Walk-in-portal\Backend\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\zeus\Walk-in-portal\Backend\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\zeus\Walk-in-portal\Backend\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -144,3 +135,11 @@ D:\zeus\Walk-in-portal\Backend\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.
 D:\zeus\Walk-in-portal\Backend\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\zeus\Walk-in-portal\Backend\Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 D:\zeus\Walk-in-portal\Backend\Backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\zeus\Walk-in-portal\Backend\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\zeus\Walk-in-portal\Backend\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\zeus\Walk-in-portal\Backend\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\zeus\Walk-in-portal\Backend\Backend\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\zeus\Walk-in-portal\Backend\Backend\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\zeus\Walk-in-portal\Backend\Backend\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\zeus\Walk-in-portal\Backend\Backend\obj\Debug\net8.0\Backend.RazorAssemblyInfo.cache
+D:\zeus\Walk-in-portal\Backend\Backend\obj\Debug\net8.0\Backend.RazorAssemblyInfo.cs
