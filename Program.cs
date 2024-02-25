@@ -29,24 +29,41 @@ var builder = WebApplication.CreateBuilder(args);
 //    };
 //});
 
-var jwtIssuer = builder.Configuration.GetSection("Jwt:Issuer").Get<string>();
-var jwtKey = builder.Configuration.GetSection("Jwt:Key").Get<string>();
+//var jwtIssuer = builder.Configuration.GetSection("Jwt:Issuer").Get<string>();
+//var jwtKey = builder.Configuration.GetSection("Jwt:Key").Get<string>();
 
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
- .AddJwtBearer(options =>
- {
-     options.TokenValidationParameters = new TokenValidationParameters
-     {
-         ValidateIssuer = true,
-         ValidateAudience = true,
-         ValidateLifetime = true,
-         ValidateIssuerSigningKey = true,
-         ValidIssuer = jwtIssuer,
-         ValidAudience = jwtIssuer,
-         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey))
-     };
- });
+//builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+// .AddJwtBearer(options =>
+// {
+//     options.TokenValidationParameters = new TokenValidationParameters
+//     {
+//         ValidateIssuer = true,
+//         ValidateAudience = true,
+//         ValidateLifetime = true,
+//         ValidateIssuerSigningKey = true,
+//         ValidIssuer = jwtIssuer,
+//         ValidAudience = jwtIssuer,
+//         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey))
+//     };
+// });
 
+
+builder.Services.AddAuthentication(x =>
+{
+    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(x =>
+{
+    x.RequireHttpsMetadata = false;
+    x.SaveToken = true;
+    x.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = false,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YourSecretKeyForAuthenticationOfApplication")),
+        ValidateAudience = false,
+        ValidateIssuerSigningKey = true
+    };
+});
 
 
 // Add services to the container.

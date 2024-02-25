@@ -34,8 +34,7 @@ namespace Backend.Controllers
         [HttpGet("getqualification", Name = "GetTechnologyTable")]
         public async Task<ActionResult> Getqualificationtable()
         {
-            var technologies = await appdbcont.Qualifications.ToListAsync();
-
+            var technologies =await appdbcont.Qualifications.ToListAsync();
             return Ok(technologies);
         }
 
@@ -66,7 +65,7 @@ namespace Backend.Controllers
         [HttpGet("getjobroles", Name = "GetAllJobroles")]
         public async Task<ActionResult> GetAllJobroles()
         {
-            var technologies = await appdbcont.AllJobRolesOfUsers.ToListAsync();
+            var technologies =await appdbcont.AllJobRolesOfUsers.ToListAsync();
 
             return Ok(technologies);
         }
